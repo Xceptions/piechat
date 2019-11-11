@@ -1,6 +1,7 @@
 language: javascript
 before_script:
-  - "npm install -g vue-cli axios bootstrap bootstrap-vue"
+  - "npm install -g @vue/cli"
+  - "npm install axios bootstrap bootstrap-vue"
 
 script:
   - "npm run serve"
