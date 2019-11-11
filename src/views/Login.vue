@@ -15,7 +15,7 @@
                     <input class="form-check-input" type="checkbox"> Remember me
                 </label>
             </div>
-            <button type="submit" class="btn btn-success">Submit</button>
+            <button type="submit" class="btn btn-success" id="login_btn">Submit</button>
             <br/><br/>
             <router-link to="/signup" class='signuplink'>Sign up</router-link>
         </form>

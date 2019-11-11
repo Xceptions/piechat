@@ -33,7 +33,7 @@ export default {
             details["receiver"] = "general"
             details["token"] = token.token
             this.$store.dispatch('sendChat', details)
-            alert(this.$store.getters.MESSAGES)
+            // alert(this.$store.getters.MESSAGES)
         }
     }
 }
